@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+}
+@media(max-width:700px){
+    .call{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+.contant{
+    display: flex;
+    gap: 2rem;
+}
+.my-bag{
+    background-color: #030F27;
+    color: white;
+    height: 90px;
+}
+a:hover{
+    color: #f1b315 !important;
+}
+.my-h1{
+    font-size: 48px;
+}
+.my-p{
+    color: #f1b315 !important;
+}
+.my-pg{
+    font-family: sans-serif;
+}
+.my-btn{
+    background-color: #f1b315;
+    color: black;
+}
+.my-btn:hover{
+    background-color: #030F27 !important;
+    color: #f1b315 !important;
+}
+.my-gold{
+    color: #f1b315 !important;
+}
+.bg{
+    background-color: #030F27;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction:column ;
+    justify-content: center;
+    transition: all 0.5s;
+}
+.gallary{
+    position: relative;
+   
+}
+.my-icon{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.6s;
+}
+.gallary:hover .my-icon{
+    opacity: 100;
+}
+.gallary:hover .bg{
+    background-color: #f1b315 !important;
+    .hover{
+        color:black !important;
+    }
+}
+.about{
+  margin-left: 33rem;
+}
+@media(max-width:700px){
+    .about{
+        margin-left: 10px;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+.my-h2{
+    font-size: 26px;
+}
+.iii{
+    background-color: #f8b60e;
+    width: 50px;
+    height: 50px;
+    margin-left: 6px;
+}
+.iii i{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.my-bg{
+    background-color: #030F27;
+    color: rgb(121, 123, 124);
+}
+.services-gallery:hover i{
+    color: black !important;
+}
+.linearbg{
+    background: linear-gradient(to right, rgb(38 38 38 / 80%), rgb(253 254 255 / 0%)), url('https://www.gobustransport.com/img/bus-hero-desktop.jpg');
+    background-position: center;
+    background-size: cover ;
+}
+.last-bg{
+    background-color: #030F27;
+}
+.my-text{
+    color: rgb(135, 150, 165);
+}
+.last-bga{
+   background-color: #FDBE33;
+}
+.lineheight{
+    line-height: 2rem;
+    font-family: math;
+}
+.myfooter{
+    background-color: #030F27;
+    width: 100%;
+}
+ul {
+   list-style: none;
+}
+ul li{
+    transition: all 0.5s;
+}
+.myfooter ul li:hover{
+    text-decoration: underline;
+    transform: translate(10px);
+    cursor: pointer;
+    color: rgb(117, 117, 177);
+}
